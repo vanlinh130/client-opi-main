@@ -10,9 +10,9 @@ export default function Page() {
     return (
         <>
             <Container title="CREATE MY ACCOUNT" />
-            <div className="flex w-full items-center justify-center py-[24px]">
-                <div className="w-[60%] flex justify-between">
-                    <div className="w-[40%]">
+            <div className="flex w-full py-[24px] px-[50px]">
+                <div className="w-full flex justify-between">
+                    <div className="w-[40%] px-[60px]">
                         <h1 className="text-[32px] font-medium">Create my Account</h1>
                         <p className="py-3">Choose what applies to you:</p>
                         <div className="flex items-center gap-3">
@@ -148,10 +148,11 @@ export default function Page() {
                             </div>
                         </form>
                     </div>
-                    <div className="w-[40%]">
+                    <div className="w-[50%] pr-[60px]">
                         <img
                             src="https://images.ctfassets.net/uyr7q3lwti8o/4k5B70Cxh1NxTPGn5lCylg/9a3d1cbcfda4ae713f765b7a0ff7d7af/module_global-1044x1044.jpg?fm=webp&w=640&q=75"
                             alt="images"
+                            className="w-full "
                         />
                     </div>
                 </div>

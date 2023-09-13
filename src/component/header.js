@@ -68,8 +68,8 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-white flex items-center justify-center">
-                <div className="mx-[40px] px-[50px]">
+            <div className="bg-white flex">
+                <div className="mx-[230px] px-[50px] w-full">
                     <div className="py-5 flex items-center justify-between">
                         <Link href="/">
                             <div className="w-[130px] h-[40px]">
@@ -100,7 +100,7 @@ const Header = () => {
                             <button className="p-2">
                                 <AiOutlineSearch className="text-[25px]" />
                             </button>
-                            <Link href="">
+                            <Link href="/account/wishlist">
                                 <div className="p-2">
                                     <AiOutlineHeart className="text-[25px]" />
                                 </div>

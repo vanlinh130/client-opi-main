@@ -10,9 +10,9 @@ export default function Page() {
     return (
         <>
             <Container title="account log in" />
-            <div className="flex w-full items-center justify-center py-[24px]">
-                <div className="w-[60%] flex justify-between">
-                    <div className="w-[40%]">
+            <div className="flex w-full py-[24px] px-[50px]">
+                <div className="w-full flex justify-between">
+                    <div className="w-[40%] px-[60px]">
                         <h1 className="text-[32px] font-medium">Welcome back! Log in.</h1>
                         <p className="py-3">Enter your email and password to log into your account.</p>
                         <form>
@@ -42,7 +42,7 @@ export default function Page() {
                                     <input type="checkbox" className="p-3 border-[1px] border-[#ccc] outline-none" />
                                     <label>Remember Me</label>
                                 </div>
-                                <Link href="">
+                                <Link href="/account/recover">
                                     <span className="underline">FORGOT PASSWORD?</span>
                                 </Link>
                             </div>
@@ -59,10 +59,11 @@ export default function Page() {
                             </div>
                         </form>
                     </div>
-                    <div className="w-[40%]">
+                    <div className="w-[50%] pr-[60px]">
                         <img
                             src="https://images.ctfassets.net/uyr7q3lwti8o/2UAZa14ns0xSzkxR3jP07X/6e94babb77554bd09277c7b671665498/login_image.webp?fm=webp&w=640&q=75"
                             alt="images"
+                            className="w-full h-full"
                         />
                     </div>
                 </div>
